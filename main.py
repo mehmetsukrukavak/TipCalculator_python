@@ -7,7 +7,7 @@ while(True):
 
         tip_bill = (bill * (1 + (percentage / 100))) / people_count
 
-        print(f"Each person should pay: ${round(tip_bill,2)}")
+        print(f"Each person should pay: ${round(tip_bill, 2)}")
         break
     except:
         print("Enter valid numbers")
